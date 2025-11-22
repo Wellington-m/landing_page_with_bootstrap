@@ -1,0 +1,56 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  background-color: #e15f41;
+}
+
+header .nav .nav-link.active {
+  background-color: #fff;
+  color: #e15f41;
+}
+
+header .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-food-menu .nav-link.active:hover {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background-color: #ffeae6;
+}
+
+.section-title {
+  font-family: "Racing Sans One", sans-serif;
+}
+
+.text-colored {
+  color: #e15f41;
+}
+
+#about,
+#food-menu {
+  background-color: #ffeae6;
+}
+
+.nav-food-menu .nav-link.active,
+#contact-us form button {
+  background-color: #e15f41;
+  color: #fff;
+}
+
+.nav-food-menu .nav-link:hover {
+  color: #e15f41;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+#about {
+  max-width: 1920px;
+  margin: 0 auto;
+}
