@@ -49,5 +49,14 @@ $(() => {
         );
       }
     },
+    submitHandler: function (form) {
+      //   alert("Formulário enviado");
+      Swal.fire({
+        title: "Formulário enviado!",
+        icon: "success",
+        draggable: true,
+      });
+      form.reset();
+    },
   });
 });

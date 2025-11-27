@@ -58,3 +58,8 @@ header .nav .nav-link,
 .error {
   color: red;
 }
+
+.swal2-confirm,
+.swal2-confirm:hover {
+  background-color: #e15f41;
+}
