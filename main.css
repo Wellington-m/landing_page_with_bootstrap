@@ -54,3 +54,7 @@ header .nav .nav-link,
   max-width: 1920px;
   margin: 0 auto;
 }
+
+.error {
+  color: red;
+}
